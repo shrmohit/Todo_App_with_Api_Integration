@@ -30,7 +30,7 @@ function TodoForm({ onAdd }) {
 
   return (
     <form className="flex  gap-3 mb-4" onSubmit={handleSubmit}>
-      <div className="flex flex col col-md-55">
+      <div className="flex flex col col-md-5">
         <input
           type="text"
           className="form-control"
